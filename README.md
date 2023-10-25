@@ -21,3 +21,5 @@ four bits would represent situation of railway track after train has parked if a
 parked. If the halt signal or the invalid signal is given, after the waiting time, input is
 requested again.
 
+Screenshot 2023-10-26 001145.png
+
