@@ -1,4 +1,12 @@
 # MiniProject
+
+RAILWAY TRAFFIC MANAGEMENT
+
+1. 221CS126, HARSH GUPTA, guptaharshhemant.221cs126@nitk.edu.in, 7046330080
+2. 221CS143, RAHUL BHIMAKARI, rahulbhimakari.221cs143@nitkedu.in, 9483849803
+3. 221CS163, VIKRANT KUMAR, vikrantkumar.221cs163@nitk.edu.in, 7982506508
+
+
 ABSTRACT:
 A railway traffic controller system takes care of assigning railway platforms for incoming 
 and departing trains in a railway station. In this project we plan to automate the task of 
