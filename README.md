@@ -102,6 +102,8 @@ positive impact on various stakeholders.
 LOGISIM:
 
 https://github.com/UVCan-16/RCB/blob/main/proj1.png
+https://github.com/UVCan-16/RCB/blob/main/proj2.png
+https://github.com/UVCan-16/RCB/blob/main/proj3.png
 
 VERILOG CODE:
 
