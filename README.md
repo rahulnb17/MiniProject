@@ -29,10 +29,6 @@ four bits would represent situation of railway track after train has parked if a
 parked. If the halt signal or the invalid signal is given, after the waiting time, input is
 requested again.
 
-https://github.com/rahulnb17/MiniProject/blob/main/Screenshot%202023-10-26%20001145.png
-
-https://github.com/rahulnb17/MiniProject/blob/main/Screenshot%202023-10-26%20001223.png
-
 The motivation behind a railway traffic management system project include:
 Safety Enhancement: Improving the safety of railway operations by implementing advanced control
 andmonitoring systems to prevent accidents and incidents.
