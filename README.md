@@ -15,6 +15,8 @@ availability of platforms. The loco-pilot inputs the direction of travel, the sy
 the suitable railway platform (out of four available) and informs the loco-pilot which 
 platform to park, or wait until the platforms are available
 
+WORKING:
+
 Input and Output Description:
 The input will be a 2-bit integer out of which 1bits represent the
 type of the incoming train and the remaining bits represents the direction of incoming train .
@@ -96,6 +98,45 @@ A mini-project on Railway Traffic Management aims to address the complexities an
 associated with railway operations while improving efficiency, safety, and the overall quality of
 service. Such a project can serve as a valuable contribution to the transportation industry and have a 
 positive impact on various stakeholders.
+
+LOGISIM:
+
+https://github.com/UVCan-16/RCB/blob/main/proj1.png
+
+VERILOG CODE:
+
+module project(T,A,B,C,D,E,F,G,H,V);
+    input T,A,B,C,D;
+    output E,F,G,H,V;
+    assign E = (!T && !B && !C)||(!T && !A && D)||(!A && B && C)||(A && !B)||(A && !C)||(A && !D);
+    assign F = (B && (!A || !C || !D))||(T && !B);
+    assign G = (C && (!A || !B || !D))||(T && B && !C);
+    assign H = (D && (!A || !B || !C))||(!T && (B^^C))||(!T && A && !B)||(A && B && C && !D);
+    assign V = !A || !D || (T && (!B || !C));
+endmodule
+
+`include "project.v"
+
+module tb;
+    reg T,A,B,C,D;
+    wire E,F,G,H,V;
+    project P1 (T,A,B,C,D,E,F,G,H,V);
+
+    initial begin
+        $dumpfile("projecttb.vcd");
+        $dumpvars(0,tb);
+    end
+    initial begin
+	$display("T|A B C D | E F G H|V");
+        $monitor("%b|%b %b %b %b | %b %b %b %b|%b",T,A,B,C,D,E,F,G,H,V);
+	T=1'b1;
+	A=1'b1;
+	B=1'b0;
+	C=1'b1;
+	D=1'b1;
+    end 
+endmodule
+
 
 
 
