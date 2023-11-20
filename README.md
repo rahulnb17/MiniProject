@@ -105,6 +105,13 @@ https://github.com/UVCan-16/RCB/blob/main/proj1.png
 https://github.com/UVCan-16/RCB/blob/main/proj2.png
 https://github.com/UVCan-16/RCB/blob/main/proj3.png
 
+VIDEO :
+
+https://github.com/UVCan-16/RCB/blob/main/mini-project-video.mp4
+https://github.com/UVCan-16/RCB/blob/main/mini_project_team_17.mp4
+
+
+
 VERILOG CODE:
 
 module project(T,A,B,C,D,E,F,G,H,V);
