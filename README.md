@@ -63,8 +63,11 @@ schedules, and ensuring reliable transportation for passengers and cargo
 ## Logisim Circuit Diagram
 <details>
   <summary>Detail</summary>
+	
 https://github.com/UVCan-16/RCB/blob/main/proj1.png
+
 https://github.com/UVCan-16/RCB/blob/main/proj2.png
+
 https://github.com/UVCan-16/RCB/blob/main/proj3.png
 
 
