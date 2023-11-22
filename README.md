@@ -63,7 +63,8 @@ schedules, and ensuring reliable transportation for passengers and cargo
 ## Logisim Circuit Diagram
 <details>
   <summary>Detail</summary>
-	
+	![image](https://github.com/rahulnb17/MiniProject/assets/122613909/d428c1d9-881d-4ef4-9a70-989e33c51d6b)
+
 https://github.com/UVCan-16/RCB/blob/main/proj1.png
 
 https://github.com/UVCan-16/RCB/blob/main/proj2.png
