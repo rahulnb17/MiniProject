@@ -1,6 +1,6 @@
-# Write your mini-project title
+# RAILWAY TRAFFIC MANAGEMENT SYSTEM
 
-RAILWAY TRAFFIC MANAGEMENT SYSTEM
+
 ## Team Details
 <details>
   <summary>Detail</summary>
@@ -21,13 +21,13 @@ RAILWAY TRAFFIC MANAGEMENT SYSTEM
 <details>
   <summary>Detail</summary>
   
-  > Write your updatede abstract here
-</details>A railway traffic controller system takes care of assigning railway platforms for incoming 
+  > A railway traffic controller system takes care of assigning railway platforms for incoming 
 and departing trains in a railway station. In this project we plan to automate the task of 
 assigning railway platforms to trains depending on their direction of commute and 
 availability of platforms. The loco-pilot inputs the direction of travel, the system calculates 
 the suitable railway platform (out of four available) and informs the loco-pilot which 
 platform to park, or wait until the platforms are available
+</details>
 
 
 <!-- Third Section -->
